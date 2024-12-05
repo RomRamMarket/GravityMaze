@@ -24,7 +24,10 @@
 <p>Una vez instalamos <code>ProBuilder</code>, creamos un plano, este será nuestro primer escenario en donde estaremos trabajando todas las mecánicas del jugador para luego crear los escenarios de juego detalladamente.</p>
 
 
-FOTO DE PRIMER LABERINTO
+<image
+  src="GravityMaze/firstMaze.png"
+  width = 60%
+  height = 60%>
 
 
 
