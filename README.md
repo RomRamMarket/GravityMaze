@@ -7,8 +7,8 @@
 <ul>
   <li>Insatalar <code>ProBuilder</code>.</li>
   <li>Configurar <code>New input system</code>.</li>
-  <li>Importar paquete <code>MAGOS</code> del asset store.</li>
-  <li>Importar paquete <code>FANTASMAS</code> del asset store.</li>
+  <li>Importar paquete <code>Battle Wizard Poly Art</code> del asset store.</li>
+  <li>Importar paquete <code>Little Ghost lowpoly(FREE)</code> del asset store.</li>
 </ul>
 
 
@@ -53,7 +53,6 @@ GIF DE BALA QUE REBOTA
 
 
 <h2>Self Gravity Shift</h2>
-
 
 <p>Para dar más dinamismo al juego será posible activar un modo de "Gravity Shift" al presionar el <code>Space bar</code>.</p>
 
