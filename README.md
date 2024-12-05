@@ -37,7 +37,11 @@
 <p> Previamente configuramos el movimiento de nuestro jugador utilzando el <code>New Input System</code>. Con esto hecho, uno de los primeros retos que decidimos enfrentar fue manejar que cada animación se presentara en el momento adecuado. Para esto básicamente generamos una máquina de estados finitos creando dentro de un <code>Animation controller</code>.</p>
 
 
-GIF DE ANIMACIONES
+<image
+  src="GravityMaze/animaciones.gif"
+  width = 60%
+  height = 60%>
+
 
 
 
@@ -50,7 +54,10 @@ GIF DE ANIMACIONES
 
 <p>Otro de los factores que el jugador debe tener en cuenta es que si una de sus balas choca una pared la bala rebotará y le afectará. </p>
 
-GIF DE BALA QUE REBOTA 
+<image
+  src="GravityMaze/balaRebota.gif"
+  width = 60%
+  height = 60%>
 
 
 
@@ -59,7 +66,10 @@ GIF DE BALA QUE REBOTA
 
 <p>Para dar más dinamismo al juego será posible activar un modo de "Gravity Shift" al presionar el <code>Space bar</code>.</p>
 
-GIF DE GRAVITY SHIFT
+<image
+  src="GravityMaze/shift.gif"
+  width = 60%
+  height = 60%>
 
 
 
