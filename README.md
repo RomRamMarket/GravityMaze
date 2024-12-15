@@ -74,8 +74,9 @@
 
 
 
+<h2>Dinámica de disparo y cumplir objetivo.</h2>
 
-
+<p>Durante este juego el objetivo es poder encontrar el camino que culmine el laberinto. Durante la fase 1 queremos mantener la dinámica sencilla para que el jugador se familiarice con el movimiento, disparo y dinámica. Primero aparecerá en el laberinto con un cubo en frente. Este cubo tendrá otro encima, fuera del alcanze del jugador. La idea de este segundo cubo es que funcione como un botón, que al chocar  </p>
 
 
 
