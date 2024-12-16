@@ -145,7 +145,18 @@ src="FinalP/cam2.png"
 width = 60%
 height = 60%>
 
+<h2>Fin de Juego</h2>
+<p1>Para crear las escenas de fin de juego, utilizamos lo aprendido en clase y creamos dos imagenes AI con relacion al videojuego, y creamos dos escenas <code>Defeat and Victory</code> con un cubo que aguantara nuestras imagenes y una camara ajustada para que la imagen sea el centro de su vision.</p1>
 
+<image
+src="FinalP/VICTORY.jpeg"
+width = 60%
+height = 60%>
+
+<image
+src="FinalP/DEFEAT.jpeg"
+width = 60%
+height = 60%>
 
 
 
