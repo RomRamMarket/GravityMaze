@@ -107,7 +107,42 @@
   width = 60%
   height = 60%>
 
+<h2>Creando el Laberinto de Fase 2</h2>
+<p1>Para crear nuestra fase 2, utilizamos ProBuilder para crear un plano de 30x30. Luego de darnos cuenta de que 30x30 no era suficiente, utilizamos la herramienta <code>Subdivide Object</code> para aumentar la cantidad de caras en nuestro plano. Ya satisfechos con la cantidad de caras, encontramos una imagen de un laberinto para utilizar como guia:</p1>
 
+<image
+src="FinalP/referenceLab.png"
+width = 60%
+height = 60%>
+
+<p1>Ya con nuestra guia establecida, se construyeron las paredes seleccionando caras de tamaños distintos (usualmente de 3 a 10 caras de largo) hasta lograr tener CASI una replica 1:1 del laberinto, con algunos cambios para facilitar la salida del jugador.</p1> 
+
+<image
+src="FinalP/endLab.png"
+width = 60%
+height = 60%>
+
+<p1>Por ultimo, utilizando prefabs de la fase anterior, colocamos los botones y puertas que desaparecen de acuerdo al progreso del player, abriendo lugares nuevos del laberinto para seguir explorando buscando el proximo boton. Esta parte del brainstorming fue divertida porque teniamos ideas distintas de dificultad pero concordamos con que el player debe de explorar casi el laberinto entero.</p1>
+
+<h2>Creando la camara 3D</h2>
+<p1>Para nuestra camara, utilizamos el package de Cinemachine para facilitar el control de parametros para nuestra camara. El estilo de camara que queriamos para la mayoria del juego era como la de Leon Kennedy en los juegos de Resident Evil 3 y Resident Evil 4, tercera persona pero un poco hacia el lado del hombro derecho de Leon:</p1>
+
+<image
+src="FinalP/LeonK.png"
+width = 60%
+height = 60%>
+
+<p1>Para lograr este efecto, necesitamos solo una cosa mas ademas del <code>Main Camera</code>, necesitamos crear un <code>Right Click > Cinemachine > Virtual Camera</code> y colocarla debajo de nuestro Player Variant como un child de ese objeto. Luego, tenemos que <code>Drag & Drop > Follow | Drag & Drop > Look At</code> nuestro Player Variant a la camara virtual que colocamos debajo del prefab como child. Antes de poder trabajar con los parametros para la camara, aun no podemos verla, y esto es porque nos falta <code>Main Camera > Add Component > Cinemachine Brain</code> cual conecta nuestra camara hacia la camara virtual del jugador, y al tener este componente junta ambas camaras juntas y podemos controlar la Main Camera con los parametros de la virtual: </p1>
+
+<image
+src="FinalP/cam1.png"
+width = 60%
+height = 60%>
+
+<image
+src="FinalP/cam2.png"
+width = 60%
+height = 60%>
 
 
 
