@@ -74,7 +74,7 @@
 <p>En este gameplay se puede ver como al principio aparece un cubo enfrente con un cubo arriba. El player dispara al cubo lo que le cambia su gravedad y ace que el cubo suba y choque el cubo de arriba. Una vez el botón de arriba es activado el próximo cubo se instancia al que se puede hacer lo mismo que el anterior. Como este botón es el último, se destruye la pared que bloqueaba el paso.</p>
 
 
-
+<p>En esta imagen puede ver un esquema de lo que es la fase 1. El area de los arboles es donde sucede la teletransportación a la próxima fase.</p>
 <image
   src="GravityMaze/esquema.png"
   width = 60%
@@ -96,7 +96,7 @@
 <p>Los objetos tipo "cubo" tienen asociados un script que solo detecta si hubo un collider de parte de la bala del player y le "cambia" la gravedad. En la práctica solo le aumenta la velocidad en dirección hacia arriba. Cuando choca con un botón deja de subir. </p>
 
 <image
-  src="GravityMaze/cubo.png"
+  src="GravityMaze/cube.png"
   width = 60%
   height = 60%>
 
