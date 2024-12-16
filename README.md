@@ -100,6 +100,17 @@
   height = 60%>
 
 
+  <p>Una vez se choca con este botón, se instancia el próximo cubo. En el script asociado a los botones, hay un atributo <code>GameObject</code> que se llama <code>Next</code> este hace referenci al botón del que se debe guiar para instanciar el prefab cuando lo activen. También tiene un atributo <code>GameObject</code> que se llama <code>prefab</code> este hace referencia a cual objeto hay que destruir en el caso en que este botón sea el último de su saga o que tiene que instanciar . En el caso de tener un contacto con un cubo, entonces verifica si el next es nulo, si lo es, entonces destruye el prefab, si no lo es entonces crea una instancia de lo que tenga en prefab justo debajo de lo que tenga en next. </p>
+
+<image
+  src="GravityMaze/boton.png"
+  width = 60%
+  height = 60%>
+
+
+
+
+
 
 
 
