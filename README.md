@@ -81,7 +81,7 @@
   height = 60%>
 
 <image
-  src="GravityMaze/gameplay1.gif"
+  src="gameplay1.gif"
   width = 60%
   height = 60%>
 
