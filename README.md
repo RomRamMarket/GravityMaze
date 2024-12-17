@@ -150,6 +150,55 @@ src="FinalP/cam2.png"
 width = 60%
 height = 60%>
 
+## Creando los fantasmas
+
+A continuación, se enseñan los 2 prefabs que se hicieron para desarrollar el comportamiento de los fantasmas: el `RoamingGhost` para la fase 2 y el `Ghost` para el jefe.
+
+Primero, el `Ghost`, que simplemente sigue al jugador en todo momento. Este prefab es instanciado todas las veces necesarias en la última fase.
+
+<img src="img/09-ghost1.png" width=80%, height=80%>
+<img src="img/10-ghost2.png" width=80%, height=80%>
+
+Luego creamos el `RoamingGhost`, que tiene un componente de inteligencia artificial. Si el fantasma está cerca del jugador, va a perseguirlo. Si no, se dirigirá a algún botón preasignado. Solamente hay 5 de estos fantasmas instanciados "estáticamente" en la fase 2.
+
+<img src="img/11-rghost1.png" width=80%, height=80%>
+<img src="img/12-rghost2.png" width=80%, height=80%>
+<img src="img/13-rghost3.png" width=80%, height=80%>
+<img src="img/14-rghost4.png" width=80%, height=80%>
+<img src="img/15-rghost5.png" width=80%, height=80%>
+
+## Creación de la fase 3: el jefe final
+
+La fase 3 consiste de un jefe que instanciará fantasmas infinitamente hasta que los 4 botones alrededor del campo de batalla hayan sido presionados. Cuando el último botón se presione, la plataforma debajo del jefe se eliminará y el jefe caerá al abismo, llevando al jugador a la victoria.
+
+Iniciando la creación del escenario, añadimos un `Skybox` y creamos un campo de batalla en ProBuilder con una plataforma separada en el centro. Esta será la plataforma que "colapsará" al final del juego.
+
+<img src="img/01-skybox.png" width=80%, height=80%>
+<img src="img/02-arena.png" width=80%, height=80%>
+
+Ubicamos los botones y al jugador alrededor del mapa...
+
+<img src="img/03-buttonlighting.png" width=80%, height=80%>
+<img src="img/04-player.png" width=80%, height=80%>
+
+Instanciamos al jefe como un fantasma gigantesco. Creamos un script para su comportamiento. Solamente mirará al jugador a todo momento y matará al jugador si entra en contacto con él.
+
+<img src="img/05-boss1.png" width=80%, height=80%>
+<img src="img/05-boss2.png" width=80%, height=80%>
+
+Ahora creamos un `Spawner` de fantasmas de tal manera que aparezcan alrededor de todo el campo de batalla. La técnica para esparcir los fantasmas es la misma utilizada para la lluvia en el pasado _Challenge 6_.
+
+<img src="img/06-spawner1.png" width=80%, height=80%>
+<img src="img/07-spawner2.png" width=80%, height=80%>
+
+Finalmente, decoramos un poco el campo de batalla añadiendo `Particle Systems` de fuego alrededor de la plataforma central.
+
+<img src="img/08-fire.png" width=80%, height=80%>
+
+El resultado final es el siguiente:
+
+<img src="img/final.png" width=80%, height=80%>
+
 <h2>Fin de Juego</h2>
 <p1>Para crear las escenas de fin de juego, utilizamos lo aprendido en clase y creamos dos imagenes AI con relacion al videojuego, y creamos dos escenas <code>Defeat and Victory</code> con un cubo que aguantara nuestras imagenes y una camara ajustada para que la imagen sea el centro de su vision.</p1>
 
