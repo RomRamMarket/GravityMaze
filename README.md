@@ -14,7 +14,7 @@
 
 <h2>Contexto</h2>
 
-<p>AQUI DEBERIAMOS EXPLICAR UN POCO EL CONTEXTO DE NUESTRO JUEGO. DINAMICA, TEMATICA, OBJETIVO, INSPIRACION...</p>
+<p>Este juego es inspirado en <code>Portal</code>. Tomamos como inspiración un <code>Shooter puzzle game</code>, donde nuestro objetivo no es matar nada sino resolver un acertijo para poder continuar. Para el <code>Final boss</code> nos inspiramos directamente del final boss de portal 1 <code>GLaDOS</code> y en el final boss de portal 2 <code>Wheatly</code>.</p>
 
 
 <h2>Primeros pasos</h2>
