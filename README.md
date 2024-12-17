@@ -88,8 +88,11 @@
 
 
 
-
-  
+<p>Para hacerlo mas adecuado al ambiente decidimos que en vez de cubos usaremos troncos, que el usuario puede disparar y cambiarle su gravedad.</p>
+  <image
+  src="imagen.png"
+  width = 60%
+  height = 60%>
 
 
 <h2>Cómo se conoce donde se debe instanciar el próximo cubo?</h2>
