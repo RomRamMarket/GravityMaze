@@ -3,6 +3,9 @@
 <h1>Descarga</h1>
 El proyecto con todos sus assets se puede descargar <a href=https://drive.google.com/file/d/1Wa-tQIS-1PiDe1uHEfup0UX2IYb1kklH/view?usp=sharing>aquí</a>.
 
+<h2>Gameplays</h2>
+Algunos gameplays ganando y perdiendo se pueden encontrat <a href=https://drive.google.com/drive/folders/1SYcLSYliSC_zIPB0aSiY3i3J2sXYGzQb?usp=sharing>aquí</a>.
+
 <h1>Requerimientos</h1>
 
 <ul>
