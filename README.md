@@ -9,6 +9,7 @@
   <li>Importar paquete <code>Battle Wizard Poly Art</code> del asset store.</li>
   <li>Importar paquete <code>Little Ghost lowpoly(FREE)</code> del asset store.</li>
   <li>Importar paquete <code>Cinemachine</code> del asset store.</li>
+  <li>Importar paquete <code>AllSky Free - 10 Sky / Skybox Set</code> del asset store.</li>
 </ul>
 
 
